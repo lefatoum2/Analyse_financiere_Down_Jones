@@ -46,7 +46,7 @@ Les requêtes SQL ont la particularité de pouvoir être transformé en DataFram
 
 ### Streamlit
 
-Comme son slogan le dit : "c'est le plus rapide chemin pour construire et partager  de la Data.
+Comme son slogan le dit : "c'est le plus rapide chemin pour construire et partager  de la Data". Les amateurs de Dash adoront.
 
 ### Plotly.Express
 
