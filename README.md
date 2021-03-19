@@ -17,18 +17,20 @@ docker exec -t -i downjones /bin/bash
 mysql -uroot -ppassword
 ```
 
+## Création de table
 ```
 USE database_name;
+```
 
+```
 CREATE TABLE table_name (
-            id INT NOT NULL AUTO_INCREMENT,
-            column_1 VARCHAR(255) NOT NULL,
-            column_2 DATE NOT NULL,
-            column_3 DECIMAL(10 , 2 ) NULL,
-            column_4 INTEGER,
-            PRIMARY KEY (id)
+            
 );
 
+```
+## Charger les données csv dans MySql
+
+```
 LOAD DATA INFILE '/home/export_file.csv'
 INTO TABLE table_name
 FIELDS TERMINATED BY ','
@@ -36,3 +38,16 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '/n'
 IGNORE 1 ROWS;
 ```
+## Le choix de nos outils technologiques
+
+### MySql
+
+Les requêtes SQL ont la particularité de pouvoir être transformé en DataFrame en utilsant la bibliothèque de Pandas. C'est idéal lorsqu'on possède beaucoup de données à traiter et visualiser des graphiques rapidement.
+
+### Streamlit
+
+Comme son slogan le dit : "c'est le plus rapide chemin pour construire et partager  de la Data.
+
+### Plotly.Express
+
+Plotly.express est une biblithèque qui se veut que plus concis que Plotly lui-même qui possédait déjà moins de contraintes que ses concurrents. La courbe d'apprentissage est assez faible.
