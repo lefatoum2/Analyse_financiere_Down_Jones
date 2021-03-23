@@ -42,7 +42,7 @@ IGNORE 1 ROWS;
 
 ### MySql
 
-Les requêtes SQL ont la particularité de pouvoir être transformé en DataFrame en utilsant la bibliothèque de Pandas. C'est idéal lorsqu'on possède beaucoup de données à traiter et visualiser des graphiques rapidement.
+Les requêtes SQL ont la particularité de pouvoir être transformé en DataFrame en utilisant la bibliothèque de Pandas. C'est idéal lorsqu'on possède beaucoup de données à traiter et pour visualiser des graphiques rapidement.
 
 ### Streamlit
 
@@ -50,4 +50,4 @@ Comme son slogan le dit : "c'est le plus rapide chemin pour construire et partag
 
 ### Plotly.Express
 
-Plotly.express est une biblithèque qui se veut que plus concis que Plotly lui-même qui possédait déjà moins de contraintes que ses concurrents. La courbe d'apprentissage est assez faible.
+Plotly.express est une biblithèque qui se veut plus concis que Plotly lui-même qui possédait déjà moins de contraintes que ses concurrents. La courbe d'apprentissage est assez faible.
